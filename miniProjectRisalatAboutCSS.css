@@ -1,0 +1,156 @@
+
+
+   body{
+    background-color: gray;
+   }
+
+
+.questionMarkImagesProperties{
+  	margin-top: 100px;
+  	margin-left: 550px;
+  
+  }
+
+   .loggedScreenTextBottom{
+  	margin-top: 20px;
+  	margin-left: 550px;
+    text-shadow: 3px 3px 5px red;
+  }
+
+
+.loggedAndCreateButton {
+  margin-top: 20px;
+  	margin-left: 550px;
+  	margin-bottom: 20px;
+ background-color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  box-shadow: 0px 14px 32px 0px rgba(0,0.2,0,0.8);
+  text-shadow: 1px 1px 3px yellow;
+  color: green;
+  cursor: pointer;
+ }
+
+.paragraphProfile{
+  	margin-top: 20px;
+  	margin-left: 100px;
+  	margin-right: 100px;
+    text-shadow: 2px 2px 4px green;
+    color: white;
+    background-color: purple;
+    font-size: 44px;
+    box-shadow: 0px 20px 16px 0px rgba(0,0,0,0.8); 
+    border-radius: 34px/34px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top-style: dotted;
+  border-right-style: solid;
+  border-bottom-style: dotted;
+  border-left-style: solid;
+  }
+
+.title {
+	margin-top: 100px;
+	margin-left: 150px;
+	margin-right: 150px;
+	text-align: center;
+	color: black;
+	font-size: 64px;
+	text-align: center;
+	background-color: pink;
+    font-style: italic;
+    border-radius: 44px / 44px; 
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9); 
+    text-shadow: 3px 3px 5px yellow;
+	}
+
+
+ 
+.ownerImage {
+	margin-top: 20px;
+	height: 600px;
+	width: 1220px;
+	}
+
+
+.setImageBooksHeader {
+	top: 0;
+	margin: 0;
+	left: 0;
+	right: 0;
+	height: 500px;
+	width: 100%;
+	}
+
+
+
+h2.headerFreeKnowedge {
+	margin-top: 40px;
+	margin-left: 150px;
+	margin-right: 150px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);
+	text-shadow: 3px 3px 5px yellow;
+}
+
+.searchBarPropertyApple{
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0.9,0,0.8);
+
+    }
+
+	.active {
+	background-color: yellow;
+color: black;
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.8);
+  text-shadow: 1px 1px 3px black;
+  font-size: 18px;
+ 
+	}
+	.spaceImageNavigationBarLeft{
+		margin-top: 12px;
+		margin-left: 30px;
+
+	}
+   .spaceNavigationBar {
+   	margin-top: 5px;
+	margin-right: 50px;
+	color: white;
+	font-size: 44px;
+	font-style: italic;
+	text-shadow: 3px 3px 5px white;
+   }
+
+ul {
+  list-style-type: none;
+  background-color: red;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+	text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 24px;
+}
+
+  li a.applyNavigationBarHover:hover {
+  background-color: yellow;
+  color: red;
+}

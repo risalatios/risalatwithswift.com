@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+
+
+.setPositionUSerNameLable{
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: center;
+}
+
+
+
+.title {
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: center;
+  color: white;
+  font-size: 84px;
+    font-style: italic;
+    text-shadow: 3px 3px 5px black;
+  }
+
+  .imagwWidthHeight{
+      margin-top: 5px;
+       margin-left: 550px;
+      width: 10%;
+      height: 10%;
+  }
+
+
+
+   .widthSearchBar{
+     margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: center;
+    width: 500px;
+    height: 40px;
+  background-color: white;
+  color: black;
+  padding-left: 20px;
+  padding-top: 5px;
+   padding-bottom: 5px;
+
+   border-color: red;
+  border-radius: 38px/38px;
+   }
+}
+
+
+
+   .applyButtonProperty {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+}
+</style>
+</head>
+<body>
+
+<h2 class="title">Google Login</h2>
+
+<form>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjToHAfprBrrgCJwfY78Te3Cxf_Je-26hXaA&usqp=CAU" class="imagwWidthHeight">
+    <label class="setPositionUSerNameLable" for="uname">Username</label>
+    <input class="widthSearchBar" type="text" placeholder="Enter Username" name="uname">
+
+    <label for="psw">Password</label>
+    <input class="widthSearchBar" type="password" placeholder="Enter Password" name="psw">
+        
+    <button class="applyButtonProperty" type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+</form>
+
+</body>
+</html>
+
+
+<h1 class="title"> 1> What is the Singleton Design Pattern</h1>
+<p class="subTitle">Singleton is a design pattern. that allows us create a single instance of a class throw out the module. so the point is that how we can achive is.</p>
+<p class="paragraphProfile">//Create examples singleton
+
+Struct Api {
+    static let shared = Api()
+    init(){}
+    func sendRequest(){
+    print("Sending")
+   }
+}
+// use in this structure
+   Api.shared.sendRequest()
+//output
+        Sending......?
+</p>
+
+<h1 class="title"> 2> What is the Delegation Design Pattern</h1>
+<p class="subTitle">Delegation is a design pattern. that enables a class, struct, enum to transfer to hands of some of the work or responsblities to another class, struc, enum. and where that facilities and that properties, methods are done. it gives back original class</p>
+<p class="paragraphProfile">//Create examples delegation
+  You have a loginViewController and you have two uitextfield one is userName and other password. so userName textfield that is another class and you have loginViewController that is one class. so userName textfield are delegate some of the responsbilities.
+  like when userEnterTextfield, when user startBeginEndEditing these function delegate provide loginViewController.
+</p>
+
+
+<h1 class="title"> 2> What is Error Handling in Swift</h1>
+<p class="subTitle">You use do catch try and throw to handle error in swift. error handling is the process of responding to and recovering from error condition in your program. Swift provide first class support for throwing catching property and manipulating recoverable error at run time</p>
+<p class="paragraphProfile">//Create examples error handling
+
+enum BulletTrainError: Error{
+    case insufficientLightVoltage(neededLightVoltage: Int)
+}
+
+
+
+struct BulletTrain{
+    
+    func startPicnic(lightVoltage: Int) throws -> String {
+        if lightVoltage < 1000{
+            throw BulletTrainError.insufficientLightVoltage(neededLightVoltage: 1000 - lightVoltage)
+        }
+        
+        if lightVoltage > 5000 {
+            throw "High Voltage"
+        }
+        return " lets go the picnic begin"
+    }
+}
+
+
+let objBulletTrain = BulletTrain()
+  
+do{
+   let result =  try  objBulletTrain.startPicnic(lightVoltage: 6000)
+    print(result)
+}catch  BulletTrainError.insufficientLightVoltage(let needLightVoltage){
+    print("occured error insufficent light voltage needed voltage  \(needLightVoltage)")
+} catch let highVoltageError {
+    print(highVoltageError)
+}
+</p>
+
+
+
+<h1 class="title"> 2> What is Extension in Swift</h1>
+<p class="subTitle">Extensions add new functionality to an existing class, structure, enumeration, or protocol type</p>
+<p class="paragraphProfile">//Create examples extension 
+
+struct Size {
+  var width = 0.0, height = 0.0  
+}
+
+//use
+
+extension Size{
+  var sumOFWithHEight: CGFloat
+}
+
+</p>
+
+
+<h1 class="title"> 2> What is UIKit in Swift</h1>
+<p class="subTitle">UIKit is a framework introduce by apple which is used to create design user Interface.</p>
+<p class="paragraphProfile">//Create examples  
+</p>
+
+
+<h1 class="title"> 2> What is Auto Layout in Swift</h1>
+<p class="subTitle">I can handle the stack of dynamic constraints or propotonal height and width. so i can create any type of dynamicUI so that it can grows based on the screen size.</p>
+<p class="paragraphProfile">//Create examples  
+</p>
+
+
+<h1 class="title"> 2> What is Cocoa Pod in iOS</h1>
+<p class="subTitle">Cocoa pod is a third party dependancy manager which is used to download third parties.</p>
+<p class="paragraphProfile">//Create examples  
+</p>
+
+<h1 class="title"> 2> What is Swift Package Manager in iOS</h1>
+<p class="subTitle">Swift Package Manager is a third party dependancy manager introduce by apple which is used to download third parties in used in your code.</p>
+<p class="paragraphProfile">//Create examples  
+</p>
+
+
+<h1 class="title"> 2> What is Initilizers in Swift</h1>
+<p class="subTitle">init is the process of preparing an instance of class struct enum for use this process involves setting an initial value of each stored property .</p>
+<p class="paragraphProfile">//Create examples  
+</p>
+
+<h1 class="title"> 2> What is Designated Initilizers rule in Swift</h1>
+<p class="subTitle">Designated init must call designated init from its immediate super class.</p>
+<p class="paragraphProfile">//Create examples  
+</p>
+
+<h1 class="title"> 2> What is Convienience Initilizers rule in Swift</h1>
+<p class="subTitle">Convienience init must call another init from the same class and base init class.</p>
+<p class="paragraphProfile">//Create examples  
+</p>

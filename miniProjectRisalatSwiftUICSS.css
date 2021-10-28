@@ -1,0 +1,162 @@
+
+
+
+.backgroundColorTR{
+  background-color: red;
+  box-shadow: 0px 20px 16px 0px rgba(0,0,0,0.8);
+  text-shadow: 3px 3px 5px white;
+}
+
+
+.tableFont{
+   font-family: arial, sans-serif;
+   font-size: 24px;
+   width: 90%;
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-bottom: 100px;
+}
+
+
+.propertyAplyTHTD{
+   color: white;
+  text-align: left;
+  padding: 8px;
+}
+
+
+
+
+.paragraphProfile{
+    margin-top: 20px;
+    margin-left: 150px;
+    width: 500px;
+    text-shadow: 3px 3px 5px white;
+    background-color: black;
+    font-size: 44px;
+    box-shadow: 0px 20px 16px 0px rgba(0,0,0,0.9); 
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    white-space: pre-line;
+  }
+
+.title {
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 30%;
+  padding: 8px;
+  color: white;
+  font-size: 44px;
+  background-color: green; 
+  text-shadow: 3px 3px 5px white;
+  }
+
+   
+.subTitle {
+  margin-top: 20px;
+  margin-left: 100px;
+  color: black;
+  font-size: 28px;
+  }
+
+
+.questionMarkImagesProperties{
+    margin-top: 100px;
+    margin-left: 550px;
+  
+  }
+
+   .loggedScreenTextBottom{
+    margin-top: 20px;
+    margin-left: 550px;
+    text-shadow: 3px 3px 5px red;
+  }
+
+
+.loggedAndCreateButton {
+  margin-top: 20px;
+    margin-left: 550px;
+    margin-bottom: 20px;
+ background-color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  box-shadow: 0px 14px 32px 0px rgba(0,0.2,0,0.8);
+  text-shadow: 1px 1px 3px yellow;
+  color: green;
+  cursor: pointer;
+ }
+
+
+
+
+h2.headerFreeKnowedge {
+  margin-top: 40px;
+  margin-left: 150px;
+  margin-right: 150px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);
+  text-shadow: 3px 3px 5px yellow;
+}
+
+.searchBarPropertyApple{
+    margin-top: 20px;
+    margin-left: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0.9,0,0.8);
+
+    }
+
+  .active {
+  background-color: yellow;
+  color: black;
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.8);
+  text-shadow: 1px 1px 3px black;
+  font-size: 18px;
+ 
+  }
+  .spaceImageNavigationBarLeft{
+    margin-top: 12px;
+    margin-left: 100px;
+
+  }
+   .spaceNavigationBar {
+    margin-top: 5px;
+  margin-right: 100px;
+  color: white;
+  font-size: 44px;
+  font-style: italic;
+  text-shadow: 3px 3px 5px white;
+   }
+
+ul {
+  list-style-type: none;
+  background-color: red;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 24px;
+}
+
+  li a.applyNavigationBarHover:hover {
+  background-color: yellow;
+  color: red;
+}
